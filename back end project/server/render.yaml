@@ -1,0 +1,4 @@
+services:
+  - name: project
+    env: node
+    start_cmd: node src/index.js
