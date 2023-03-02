@@ -7,7 +7,7 @@ mongoose.set("strictQuery", true);
 const data = require("./data");
 
 // Connect to DATABASE
-const DATABASE_URL = "mongodb://localhost:27017/subscribers";
+const DATABASE_URL = "mongodb+srv://parth:parth123@cluster0.ogewkjk.mongodb.net/subscribers?retryWrites=true&w=majority";
 
 // Set up default mongoose connection
 mongoose.connect(DATABASE_URL, {

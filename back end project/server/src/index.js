@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cors());
 
 // Connect to DATABASE
-const DATABASE_URL = "mongodb://localhost:27017/subscribers";
+const DATABASE_URL = "mongodb+srv://parth:parth123@cluster0.ogewkjk.mongodb.net/subscribers?retryWrites=true&w=majority";
 
 mongoose.connect(DATABASE_URL, {
   useNewUrlParser: true,
